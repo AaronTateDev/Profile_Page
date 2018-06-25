@@ -1,0 +1,443 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #555;
+	width: 100%;
+	height: 100%;
+	font-size: 17px;
+	line-height: 1.4;
+	font-weight: 400;
+	margin-top: 35px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/* font-family: chooseone */
+	color: #333
+}
+
+p, h4, h5, h6 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h4 {
+	font-size: 21px;
+}
+
+body:before {
+   content: "";
+   position: fixed;
+   top: -10px;
+   left: 0;
+   width: 100%;
+   height: 10px;
+   -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+   z-index: 100;
+}
+
+.jumbotron h3 {
+	position: relative;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: normal;
+	color: #fbb03b;
+	font-size: calc(8px + 1vw);
+	top: 27vw;
+	left: -1.48vw;
+}
+
+.jumbotron {
+	height: 50vw;
+	width: 100%;
+	background-image: url("images/yname_logo.png"), 
+	url("images/forest_laptop2.jpg");
+	background-position: 27.8vw -2.5vw, top ;
+	background-repeat: no-repeat;
+	background-size: 40vw, cover;
+	z-index: -1;
+}
+
+/*------Navbar Section-----*/
+
+nav {
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	height: 35px;
+	margin-top: -35px;
+	background-color: #e2b162;
+	z-index: 1;
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+
+.navLinks {
+	float: right;
+	height: 100%;
+	font-size: 17px;
+}
+
+.navLinks a {
+	float: left;
+	display: block;
+	color: white;
+	padding: 8px 3px 5px 0;
+	margin-left: 15px;
+	text-decoration: none;
+	overflow: hidden;
+	list-style-type: none;
+	text-align: center;
+	
+}
+
+.navLinks a:hover {
+	background-color: #111;
+	transition: all 0.5s ease;
+    height: 100%;
+}
+
+nav img {
+	position: absolute;
+	height: 100%;
+	
+}
+
+nav:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*------Anchor Fix-----*/
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -20px;
+    visibility: hidden;
+}
+
+/*------Projects Section-----*/
+
+#workExamples {
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+#workExamples h2:after {
+	content:'';
+	position: absolute;
+	width: 120px;
+	height: 2px;
+	margin-left: -60px;
+	left: 50%;
+	bottom: 0;
+	background-color: #fbb03b;
+}
+
+#workExamples h2 {
+	text-transform: uppercase; 
+	margin-bottom: 30px;
+	margin-top: 0;
+	position: relative;
+}
+
+#workExamples #project1,
+#workExamples #project2,
+#workExamples #project3 {
+	height: 300px;
+	width: 30%;
+	float: left;
+	overflow: hidden;  
+}
+
+#workExamples #project1 {
+	margin-left: 2%;
+	margin-right: 1.5%;
+	background-image: url(images/placeholder_300x200.jpg);
+	background-size: 100% 100%;
+	
+}
+
+#workExamples #project2 {
+	margin-left: 1%;
+	margin-right: 1%;
+	background-image: url(images/placeholder_300x200.jpg);
+	background-size: 100% 100%;
+}
+
+#workExamples #project3 {
+	margin-left: 1.5%;
+	margin-right: 2%;
+	background-image: url(images/placeholder_300x200.jpg);
+	background-size: 100% 100%;
+}
+
+#workExamples #overlay {
+	width: 100%;
+	height: 100%;
+	padding-top: 320px;
+}
+
+#workExamples #overlay:hover {
+	background-color: rgba(0,0,0,0.4);
+	padding-top: 126px;
+	transition: all 0.5s ease;
+
+}
+
+#overlay a {
+	display: inline-block;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+#workExamples:after {
+	content: '';
+	display: block;
+    clear: both;
+}
+
+/* ------MySkills Section-----*/
+
+.mySkills {
+	background-color: #e3ebee;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;	
+}
+
+.mySkills h2:after {
+	content: '';
+	position: absolute;
+	width: 90px;
+	height: 2px;
+	margin-left: -45px;
+	left: 50%;
+	bottom: 0;
+	background-color: #fbb03b;
+}
+
+.mySkills h2 {
+	text-transform: uppercase;
+	margin-bottom: 30px; 
+	right: 1%;
+	position: relative;
+}
+
+.mySkills .skillsLeft, 
+.mySkills .skillsCenter, 
+.mySkills .skillsRight {
+	width: 33.33%;
+	display: inline-block;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.mySkills:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.mySkills ion-icon {
+  font-size: 64px;
+  color: #fbb03b;
+}
+
+/* ------About Me Section-----*/
+
+.aboutMe {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 70px;
+	
+}
+
+.aboutMe:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.aboutMe h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.aboutMe h2:after {
+	content: '';
+	position: absolute;
+	width: 90px;
+	height: 2px;
+	margin-left: -45px;
+	left: 50%;
+	bottom: 0;
+	background-color: #fbb03b;
+}
+
+.aboutMe .leftColumn, .aboutMe .rightColumn {
+	width: 50%;
+	float: left;
+
+}
+
+.aboutMe .leftColumn {
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+.aboutMe a {
+	background-color: #fbb03b;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 15px;
+	font-size: 17px;
+	display: inline-block;
+	margin-top: 15px;
+	border: 1px solid #fbb03b;
+}
+
+.aboutMe a:hover {
+	background-color: #e3ebee;
+	color: #fbb03b;
+	border: 1px solid #fbb03b;
+}
+
+.aboutMe .leftColumn img {
+	max-width: 100%;
+}
+
+/* ------Contact Me Section-----*/
+
+.contactSection {
+	text-align: center;
+	background-color: #e3ebee;
+	padding-top: 30px;
+	padding-bottom: 40px;
+
+}
+
+.contactSection:after {
+	content: '';
+	display: block;
+	clear: both;
+
+}
+
+.contactSection h2:after {
+	content:'';
+	position: absolute;
+	width: 110px;
+	height: 2px;
+	margin-left: -55px;
+	left: 50%;
+	bottom: 0;
+	background-color: #fbb03b;
+}
+
+.contactSection h2 {
+	text-transform: uppercase; 
+	margin-top: 0;
+	position: relative;
+}
+
+.socialContainer {
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+	
+}
+
+.socialContainer ion-icon {
+	float: left;
+	margin-right: 18px;
+	font-size: 24px;
+	color: #fbb03b;
+}
+
+.firstColumn p,
+.secondColumn p,
+.thirdColumn p {
+	display: block;
+} 
+
+
+.firstColumn,
+.secondColumn,
+.thirdColumn {
+	width: 33.33%;
+	display: inline-block;
+	float: left;
+}
+
+.thirdColumn p {
+	margin-bottom: 0;
+	margin-top: 4.7px;
+}
+
+.textDec {
+	color: #fbb03b;
+	font-weight: bold;
+}
+
+/*------ Footer Section -----*/
+
+footer {
+	background-color: #777;
+	padding: 20px 20px 5px 30px;
+}
+
+footer:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.footerText {
+	float: left;
+}
+
+.social {
+	float: right;
+	margin: 12px 5px 15px 0;
+	color: #333;
+	
+}
+
+.social ion-icon {
+	font-size: 25px;
+	color: #333;
+	margin-right: 7px;
+}
+
+.social ion-icon:hover {
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+.footerText p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
