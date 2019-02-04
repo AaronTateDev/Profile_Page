@@ -13,6 +13,7 @@ body {
 	line-height: 1.4;
 	font-weight: 400;
 	margin-top: 35px;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,7 +63,6 @@ body:before {
 	background-repeat: no-repeat;
 	background-size: 40vw, cover;
 	z-index: -1;
-
 }
 
 /*------Navbar Section-----*/
@@ -311,12 +311,12 @@ a.anchor {
 }
 
 .aboutMe .leftColumn {
-	padding-left: 5%;
-	padding-right: 5%;
+	padding: 1em;
 
 }
 
-.aboutMe a {position: relative;
+.aboutMe a {
+	position: relative;
 	background-color: #fbb03b;
 	padding: 10px 25px;
 	text-decoration: none;
@@ -338,6 +338,7 @@ a.anchor {
 
 .aboutMe .leftColumn img {
 	max-width: 90%;
+	border-radius: 10px;
 }
 
 /* ------Contact Me Section-----*/
@@ -531,22 +532,48 @@ footer:after {
 	.aboutMe .leftColumn, .aboutMe .rightColumn {
 		width: 100%;
 		float: none;
-		padding: 0;
+		/* padding: 0; */
 	}
 
 	.aboutMe .leftColumn {
 		width: 70%; 
 		float: left; 
-		padding-left: 1em; 
+		/* padding-left: 1em;  */
+		max-width: 380px;
 	} 
 
-	.aboutMe .leftColumn img {
-		border-radius: 10px;
+	.aboutMe a {
+	left: 25%;
 	}
 
-	.aboutMe .rightColumn{
+	.aboutMe .rightColumn {
 		padding-right: 1em;
 	}
 
+.firstColumn,
+.secondColumn {
+	width: 50%;
+	display: inline-block;
+	/* float: left; */
+	text-align: center;
+}
 
-	
+.thirdColumn {
+	width: 100%;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.socialContainer ion-icon {
+	margin-left: 20%;
+}
+
+
+@media screen and (max-width: 716px) {
+	.aboutMe a {
+	left: 50%;
+	}
+}
