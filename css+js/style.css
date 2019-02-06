@@ -226,8 +226,8 @@ a.anchor {
 
 .mySkills {
 	background-color: #e3ebee;
-	padding-top: 30px;
-	padding-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;	
 }
 
@@ -251,10 +251,11 @@ a.anchor {
 
 .mySkills .skillsLeft, 
 .mySkills .skillsCenter, 
+.mySkills .skillsCenter2,
 .mySkills .skillsRight {
-	width: 33.33%;
+	width: 20%;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	padding-left: 2%;
 	padding-right: 2%;
 }
@@ -266,7 +267,7 @@ a.anchor {
 }
 
 .mySkills ion-icon {
-  font-size: 64px;
+  font-size: 44px;
   color: #fbb03b;
 }
 
@@ -311,8 +312,7 @@ a.anchor {
 }
 
 .aboutMe .leftColumn {
-	padding: 1em;
-
+	padding: .5em;
 }
 
 .aboutMe a {
@@ -532,29 +532,28 @@ footer:after {
 	.aboutMe .leftColumn, .aboutMe .rightColumn {
 		width: 100%;
 		float: none;
-		/* padding: 0; */
+		padding: 0;
 	}
 
 	.aboutMe .leftColumn {
 		width: 70%; 
-		float: left; 
-		/* padding-left: 1em;  */
+		float: left;
 		max-width: 380px;
 	} 
 
 	.aboutMe a {
-	left: 25%;
+		left: 25%;
 	}
 
 	.aboutMe .rightColumn {
-		padding-right: 1em;
+		padding-right: 0.5em;
+		padding-left: 0;
 	}
 
 .firstColumn,
 .secondColumn {
 	width: 50%;
 	display: inline-block;
-	/* float: left; */
 	text-align: center;
 }
 
