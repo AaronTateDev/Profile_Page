@@ -337,8 +337,15 @@ a.anchor {
 }
 
 .aboutMe .leftColumn img {
-	max-width: 90%;
+	max-width: 75%;
+	margin-left: 5em;
 	border-radius: 10px;
+}
+
+.aboutMe .rightColumn {
+	margin-left: 10%;
+	/* margin-top: 3vw; */
+	width: 30%;
 }
 
 /* ------Contact Me Section-----*/
@@ -532,21 +539,26 @@ footer:after {
 	.aboutMe .leftColumn, .aboutMe .rightColumn {
 		width: 100%;
 		float: none;
-		padding: 0;
+		/* padding: 0; */
 	}
 
 	.aboutMe .leftColumn {
 		width: 70%; 
 		float: left;
 		max-width: 380px;
+
 	} 
+
+	.aboutMe .leftColumn img {
+		margin-left: 2em;	
+	}
 
 	.aboutMe a {
 		left: 25%;
 	}
 
 	.aboutMe .rightColumn {
-		padding-right: 0.5em;
+		padding-right: 5.5em;
 		padding-left: 0;
 	}
 
@@ -571,7 +583,7 @@ footer:after {
 }
 
 
-@media screen and (max-width: 716px) {
+@media screen and (max-width: 640px) {
 	.aboutMe a {
 	left: 50%;
 	}
