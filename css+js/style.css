@@ -1,3 +1,8 @@
+:root {
+	--colorPrime: #fbb03b;
+	--colorSecond: #e2b162;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -72,7 +77,7 @@ nav {
 	width: 100%;
 	height: 35px;
 	margin-top: -35px;
-	background-color: #e2b162;
+	background-color: var(--colorSecond);
 	z-index: 1;
 	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
@@ -116,7 +121,7 @@ html {
 }
 
 .topnav a:hover:not(.icon) {  
-    color: /* #e2b162 */ #fbb03b;
+    color: /* var(--colorSecond) */ #fbb03b;
     background-color: #111;
 	transition: all 0.5s ease;
     height: 100%;
@@ -153,7 +158,7 @@ a.anchor {
 	margin-left: -60px;
 	left: 50%;
 	bottom: 0;
-	background-color: #fbb03b;
+	background-color: var(--colorPrime);
 }
 
 #workExamples h2 {
@@ -239,7 +244,7 @@ a.anchor {
 	margin-left: -45px;
 	left: 50%;
 	bottom: 0;
-	background-color: #fbb03b;
+	background-color: var(--colorPrime);
 }
 
 .mySkills h2 {
@@ -268,7 +273,7 @@ a.anchor {
 
 .mySkills ion-icon {
   font-size: 44px;
-  color: #fbb03b;
+  color: var(--colorPrime);
 }
 
 /* ------About Me Section-----*/
@@ -302,7 +307,7 @@ a.anchor {
 	margin-left: -45px;
 	left: 50%;
 	bottom: 0;
-	background-color: #fbb03b;
+	background-color: var(--colorPrime);
 }
 
 .aboutMe .leftColumn, .aboutMe .rightColumn {
@@ -317,7 +322,7 @@ a.anchor {
 
 .aboutMe a {
 	position: relative;
-	background-color: #fbb03b;
+	background-color: var(--colorPrime);
 	padding: 10px 25px;
 	text-decoration: none;
 	color: #fff;
@@ -325,15 +330,15 @@ a.anchor {
 	font-size: 17px;
 	display: inline-block;
 	margin-top: 15px;
-	border: 1px solid #fbb03b;
+	border: 1px solid var(--colorPrime);
 	left: 50%;
 	transform: translateX(-50%);
 }
 
 .aboutMe a:hover {
 	background-color: #e3ebee;
-	color: #fbb03b;
-	border: 1px solid #fbb03b;
+	color: var(--colorPrime);
+	border: 1px solid var(--colorPrime);
 }
 
 .aboutMe .leftColumn img {
@@ -373,7 +378,7 @@ a.anchor {
 	margin-left: -55px;
 	left: 50%;
 	bottom: 0;
-	background-color: #fbb03b;
+	background-color: var(--colorPrime);
 }
 
 .contactSection h2 {
@@ -393,7 +398,7 @@ a.anchor {
 	float: left;
 	margin-right: 18px;
 	font-size: 24px;
-	color: #fbb03b;
+	color: var(--colorPrime);
 }
 
 .firstColumn p,
@@ -417,7 +422,7 @@ a.anchor {
 }
 
 .textDec {
-	color: #fbb03b;
+	color: var(--colorPrime);
 	font-weight: bold;
 }
 
@@ -506,7 +511,7 @@ footer:after {
 	  	position: relative; 
 	  	display: block; 
 	  	width: 100%;
-	  	background-color: #e2b162;
+	  	background-color: var(--colorSecond);
   		-webkit-box-shadow: inset 0 0 50px #000;
        	   -moz-box-shadow: inset 0 0 50px #000;
     			box-shadow: inset 0 0 50px #000;
