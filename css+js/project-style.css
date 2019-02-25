@@ -2,16 +2,21 @@
 	
 }
 
-body {
+body:not(nav)  {
 	margin-left: 15%;
 	width: 70%
 }
 
-nav {
-	width: 70%;
+nav {	
 	height: 35px;
+	left: 0;
 }
 
 .fancy img {
+	width: 100%;
+}
+
+footer {
+	left: 0;
 	width: 100%;
 }
