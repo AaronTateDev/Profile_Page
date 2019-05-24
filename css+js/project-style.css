@@ -44,3 +44,7 @@ footer {
 a.anchor {    
     top: -30px;    
 }
+
+img {
+	max-height: 936px;
+}
