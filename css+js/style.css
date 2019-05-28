@@ -180,14 +180,14 @@ a.anchor {
 #workExamples #project1 {
 	/* margin-left: 7.5%; */
 	margin-right: 1.5%;
-	background-image: url(../images/jireh-cryo-port.jpg);
+	background-image: url(../images/jireh-cryo-port.jpg)/* url(../images/jireh-cryo-project.jpg) */;
 	background-size: 100% 100%;
 	max-width: 350px; 
 }
 
 #workExamples #project2 {
 	max-width: 350px;
-	background-image: url(../images/placeholder_300x200.jpg);
+	background-image: /* url(../images/placeholder_300x200.jpg) */ url(../images/character-sheet.jpg);
 	background-size: 100% 100%;
 }
 
