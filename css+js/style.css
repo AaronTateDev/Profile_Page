@@ -271,6 +271,12 @@ a.anchor {
 	clear: both;
 }
 
+.mySkillsText {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+
 .mySkills ion-icon {
   font-size: 44px;
   color: var(--colorPrime);

@@ -12,6 +12,7 @@ html, body  {
 h2 {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	padding-bottom: 0.7rem;
+
 }
 
 .preFooterContainer {
@@ -21,8 +22,8 @@ h2 {
 	min-height: 100vh;
 	width: 70%;
 	margin: 0 auto;
-  max-width: 800px;
-  padding-bottom: 3.7rem	
+  	max-width: 800px;
+  	padding-bottom: 3.7rem	
 }
 
 nav {	
@@ -52,4 +53,19 @@ a.anchor {
 
 img {
 	max-height: 936px;
+}
+
+p a {
+	background-color: #e2b162;
+	padding: 3px 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+	color:  #fff;
+	text-decoration: none;
+}
+
+p a:hover {
+	background-color: #fff;
+	color: #e2b162;
+	border-color: #e2b162;
 }
