@@ -53,6 +53,18 @@ a.anchor {
 
 img {
 	max-height: 936px;
+	transition: opacity 0.5s;
+	opacity: 1;
+}
+
+img:hover {
+	opacity: 0.7;
+	transition: opacity 0.2s;
+
+}
+
+nav img:hover {
+	opacity: 1;
 }
 
 p a {
