@@ -193,7 +193,7 @@ a.anchor {
 
 #workExamples #project3 {
 	margin-left: 1.5%;
-	background-image: url(../images/placeholder_300x200.jpg);
+	background-image: url(../images/cold-weather-club.jpg);
 	background-size: 100% 100%;
 	max-width: 350px;
 }
@@ -402,7 +402,7 @@ a.anchor {
 
 .socialContainer ion-icon {
 	float: left;
-	margin-right: 18px;
+	margin-right: .4rem;
 	font-size: 24px;
 	color: var(--colorPrime);
 }

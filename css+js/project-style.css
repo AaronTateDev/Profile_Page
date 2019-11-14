@@ -12,7 +12,8 @@ html, body  {
 h2 {
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	padding-bottom: 0.7rem;
-
+	font-size: 32px;
+	margin-bottom: 1rem;
 }
 
 .preFooterContainer {
@@ -71,7 +72,7 @@ p a {
 	background-color: #e2b162;
 	padding: 3px 5px;
 	border-radius: 5px;
-	border: 1px solid black;
+	border: 1px solid #555;
 	color:  #fff;
 	text-decoration: none;
 }
@@ -80,4 +81,29 @@ p a:hover {
 	background-color: #fff;
 	color: #e2b162;
 	border-color: #e2b162;
+}
+
+p ~ :last-child {
+	margin-top: 1.5rem;
+	margin-bottom: 1.6rem;
+
+}
+
+
+
+p a:nth-child(2) {
+	position: relative;
+	top: .35rem;	
+	background-color: #fff;
+	padding: 0;
+	border-radius: 0;	
+	border: none;
+	color:  #e2b162;
+	font-size: 1.6rem;
+	margin-left: .3rem;
+
+}
+
+p a:nth-child(2):hover {
+	color:  #555;
 }
