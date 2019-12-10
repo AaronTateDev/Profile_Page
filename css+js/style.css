@@ -348,9 +348,13 @@ a.anchor {
 }
 
 .aboutMe .leftColumn img {
-	max-width: 75%;
-	margin-left: 5em;
+	position: relative;
+	width: 75%;
+	max-width: 250px;
+	left: 50%;
+	transform: translateX(-50%);
 	border-radius: 10px;
+
 }
 
 .aboutMe .rightColumn {
@@ -560,10 +564,6 @@ footer:after {
 		max-width: 380px;
 
 	} 
-
-	.aboutMe .leftColumn img {
-		margin-left: 2em;	
-	}
 
 	.aboutMe a {
 		left: 25%;
