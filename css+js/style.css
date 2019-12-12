@@ -551,21 +551,17 @@ footer:after {
 	}
 
 	.aboutMe .leftColumn, .aboutMe .rightColumn {
-		width: 100%;
+		width: 70%;
 		float: none;
-		/* padding: 0; */
 	}
 
 	.aboutMe .leftColumn {
 		width: 70%; 
 		float: left;
 		max-width: 380px;
-
 	} 
 
-	.aboutMe a {
-		left: 25%;
-	}
+	
 
 	.aboutMe .rightColumn {
 		padding-right: 5.5em;
@@ -591,10 +587,13 @@ footer:after {
 .socialContainer ion-icon {
 	margin-left: 20%;
 }
-
+.aboutMe a {
+		left: 50%;
+	}
 
 @media screen and (max-width: 640px) {
 	.aboutMe a {
-	left: 50%;
+		left: 50%;
+
 	}
 }
