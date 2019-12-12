@@ -22,7 +22,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	/* font-family: chooseone */
 	color: #333
 }
 
@@ -187,7 +186,7 @@ a.anchor {
 
 #workExamples #project2 {
 	max-width: 350px;
-	background-image: /* url(../images/placeholder_300x200.jpg) */ url(../images/character-sheet.jpg);
+	background-image: url(../images/character-sheet.jpg);
 	background-size: 100% 100%;
 }
 
@@ -260,7 +259,6 @@ a.anchor {
 .mySkills .skillsRight {
 	width: 20%;
 	display: inline-block;
-	/* float: left; */
 	padding-left: 2%;
 	padding-right: 2%;
 }
